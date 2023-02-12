@@ -1,0 +1,31 @@
+ALGORITHM phrase
+VAR
+    nbr_voyels,nbr_mots,long,i,j,y:INTEGER:=0
+    voyels:= "aeiouy"
+    phrase:STRING
+BEGIN
+    write("Ecrire une phrase")
+    read(phrase)
+    WHILE (phrase='.') DO
+    FOR i FROM 0 TO i<phrase.length STEP 1  DO
+        IF (conditon) THEN
+            long = phrase[i]
+            i++
+            write("la longeur de cette phrase est: ", long)
+        END_IF
+    END_FOR
+     FOR j FROM 0 TO max j<phrase.length step  DO
+            IF (phrase=" ") THEN
+                nbr_mots= nbr_mots+1
+                j++
+                write("les nombrs des mots sont: ",nbr_mots)
+            END_IF
+     END_FOR
+FOR y FROM 0 TO max y<phrase.length step  DO
+    IF (phrase=voyels) THEN
+    nbr_voyels= nbr_voyels+1
+    END_IF
+END_FOR
+    END_WHILE
+
+END
